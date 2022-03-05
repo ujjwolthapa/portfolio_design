@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Document</title>
+
+    <link href="main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="queries.css">
+    <link
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <img alt="logo-img" class="logo" src="img/bromx1.png" />
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li>
+            <a class="main-nav__link" href="#">Home</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="#">Features</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="#">Portfolio</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="#">Resume</a>
+          </li>
+          <li>
+            <a class="main-nav__link nav-cta" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="section-hero">
+        <div class="section-hero__box">
+          <div class="section-hero__text-box">
+            <h1 class="heading-primary">Hey Its Me From Earth</h1>
+            <p class="section-hero__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              explicabo ratione quo aut. Veritatis ipsum, in voluptates
+              exercitationem quibusdam architecto adipisci ex cupiditate
+              officiis! Itaque error et cumque illum odio!
+            </p>
+            <a class="btn mb-md" href="">Learn More &rarr;</a>
+            <p class="section-hero__social-heading">Find Me At</p>
+            <div class="section-hero__social">
+              <a href="#">
+                <i class="fa-brands fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="section-hero__img-box">
+            <img alt="hero img" class="section-hero__img" src="img/02.jpg" />
+          </div>
+        </div>
+      </section>
+      <!-- features -->
+      <section class="section-features container">
+        <div class="section-features__box">
+          <div class="features-text">
+            <span class="subtitle">Features</span>
+            <h2 class="heading-title mb-md">Things I Do</h2>
+          </div>
+          <div class="grid grid--3-cols">
+            <!-- card 1 -->
+            <div class="card card-features">
+              <div class="section-features__content-box">
+                <svg
+                  class="section-features__icon"
+                  classname="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewbox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    strokelinecap="round"
+                    strokelinejoin="round"
+                    strokewidth="{2}"
+                  />
+                </svg>
+                <span class="section-features__heading">Web Development</span>
+                <p class="section-features__description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
+                </p>
+              </div>
+            </div>
+            <div class="card card-features">
+              <div class="section-features__content-box">
+                <svg
+                  class="section-features__icon"
+                  classname="h-6 w-6 "
+                  fill="none"
+                  stroke="currentColor"
+                  viewbox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                    strokelinecap="round"
+                    strokelinejoin="round"
+                    strokewidth="{2}"
+                  />
+                </svg>
+                <span class="section-features__heading">Video Editor</span>
+                <p class="section-features__description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
+                </p>
+              </div>
+            </div>
+            <div class="card-features">
+              <div class="section-features__content-box">
+                <svg
+                  class="h-6 w-6 section-features__icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewbox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 8h16M4 16h16"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span class="section-features__heading">Graphic Design</span>
+                <p class="section-features__description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio -->
+      <section class="section-portfolio container">
+        <div class="portfolio-text">
+          <span class="subtitle">visit my portfolio </span>
+          <h2 class="heading-title mb-md">My Portfolio</h2>
+        </div>
+        <div class="section-portfolio__box grid grid--3-cols">
+          <div class="card-portfolio">
+            <div class="section-portfolio__content-box">
+              <svg
+                class="portfolio-img"
+                height="2500"
+                viewbox="0 -.11376601 49.74245785 51.31690859"
+                width="2418"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z"
+                  fill="#ff2d20"
+                />
+              </svg>
+              <span class="section-portfolio__heading">Blog App</span>
+              <p class="section-portfolio__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
+              </p>
+            </div>
+          </div>
+          <div class="card-portfolio">
+            <div class="section-portfolio__content-box">
+              <svg
+                class="portfolio-img"
+                height="2500"
+                preserveaspectratio="xMinYMin meet"
+                viewbox="0 0 256 326"
+                width="1963"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="#2BA977">
+                  <path
+                    d="M114.784 0h53.278v244.191c-27.29 5.162-47.38 7.193-69.117 7.193C33.873 251.316 0 222.245 0 166.412c0-53.795 35.93-88.708 91.608-88.708 8.64 0 15.222.68 23.176 2.717V0zm1.867 124.427c-6.24-2.038-11.382-2.717-17.965-2.717-26.947 0-42.512 16.437-42.512 45.243 0 28.046 14.88 43.532 42.17 43.532 5.896 0 10.696-.332 18.307-1.351v-84.707z"
+                  />
+                  <path
+                    d="M255.187 84.26v122.263c0 42.105-3.154 62.353-12.411 79.81-8.64 16.783-20.022 27.366-43.541 39.055l-49.438-23.297c23.519-10.93 34.901-20.588 42.17-35.327 7.61-15.072 10.01-32.529 10.01-78.445V84.261h53.21zM196.608 0h53.278v54.135h-53.278V0z"
+                  />
+                </g>
+              </svg>
+
+              <span class="section-portfolio__heading">Weather App</span>
+              <p class="section-portfolio__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
+              </p>
+            </div>
+          </div>
+          <div class="card-portfolio">
+            <div class="section-portfolio__content-box">
+              <svg
+                class="portfolio-img"
+                height="3365"
+                viewbox="0 0 3364.7 3364.7"
+                width="3365"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <radialGradient
+                    cx="217.76"
+                    cy="3290.99"
+                    gradientunits="userSpaceOnUse"
+                    id="0"
+                    r="4271.92"
+                  >
+                    <stop offset=".09" stop-color="#fa8f21" />
+                    <stop offset=".78" stop-color="#d82d7e" />
+                  </radialGradient>
+                  <radialGradient
+                    cx="2330.61"
+                    cy="3182.95"
+                    gradientunits="userSpaceOnUse"
+                    id="1"
+                    r="3759.33"
+                  >
+                    <stop offset=".64" stop-color="#8c3aaa" stop-opacity="0" />
+                    <stop offset="1" stop-color="#8c3aaa" />
+                  </radialGradient>
+                </defs>
+                <path
+                  d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
+                  fill="url(#0)"
+                />
+                <path
+                  d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
+                  fill="url(#1)"
+                />
+                <path
+                  d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57"
+                  fill="#fff"
+                />
+              </svg>
+              <span class="section-portfolio__heading">Filter Design</span>
+              <p class="section-portfolio__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resume -->
+      <section class="section-portfolio container">
+        <div class="portfolio-text">
+          <span class="subtitle">Fresher but willing to Work </span>
+          <h2 class="heading-title mb-md">My Resume</h2>
+        </div>
+        <div class="section-resume">
+          <span>My skills</span>
+          <li>
+            <h3>Html</h3>
+            <span class="section-resume-bar">
+              <span class="html"></span>
+            </span>
+          </li>
+          <li>
+            <h3>Css</h3>
+            <span class="section-resume-bar">
+              <span class="css"></span>
+            </span>
+          </li>
+          <li>
+            <h3>Laravel</h3>
+            <span class="section-resume-bar">
+              <span class="laravel"></span>
+            </span>
+          </li>
+          <li>
+            <h3>Django</h3>
+            <span class="section-resume-bar">
+              <span class="django"></span>
+            </span>
+          </li>
+        </div>
+      </section>
+      <!-- contact-me-section -->
+      <section class="section-cta container">
+        <div class="portfolio-text">
+          <span class="subtitle">Wanna Talk to Me</span>
+          <h2 class="heading-title mb-md">Contact Me</h2>
+        </div>
+        <div class="section-cta__box">
+          <div class="section-cta__form">
+            <form action="#" class="form">
+              <div class="form__group">
+                <label for="name" class="form__label">Full Name</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Full Name"
+                  id="name"
+                  required
+                />
+                <label for="email" class="form__label">Email</label>
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="Email"
+                  id="email"
+                  required
+                />
+                <label for="text-cta" class="form__label">Message</label>
+                <textarea
+                  name="text-cta"
+                  id="text-cta"
+                  cols="30"
+                  rows="5"
+                  class="form__input"
+                  required
+                ></textarea>
+                <button class="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">Copyright &copy; 2022</footer>
+    </main>
+  </body>
+</html>

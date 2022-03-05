@@ -1,0 +1,24 @@
+// below 1200px landscape tablet
+@media (max-width: 75em) {
+  // 9px/16px
+  html {
+    font-size: 50%;
+  }
+  .grid {
+    gap: 8rem;
+  }
+}
+@media (max-width: 63em) {
+  html {
+    font-size: 37.5%;
+  }
+  .section {
+    &-features,
+    &-portfolio {
+      padding: 9.6rem 0 0 0;
+    }
+    &-cta {
+      padding: 9.6rem 3.2rem 0 3.2rem;
+    }
+  }
+}
