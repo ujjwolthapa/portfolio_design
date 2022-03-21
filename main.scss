@@ -236,12 +236,13 @@ html {
   &__content-box:hover &__icon {
     stroke: #fff;
   }
-  &__content-box:hover,
-  &__content-box:hover &__heading {
+  &__content-box:hover {
     color: #fff;
     background-color: $color-primary;
   }
-
+  &__content-box:hover &__heading {
+    color: #fff;
+  }
   &__icon {
     stroke: $color-primary;
     height: 4.8rem;
@@ -267,7 +268,7 @@ html {
   height: 10em;
   width: auto;
   border-radius: 15px;
-  @include box-shadow();
+  // @include box-shadow();
 }
 .section-portfolio {
   padding: 9.6rem 0;
@@ -424,4 +425,24 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+// mobile-nav
+
+.btn-mobile-nav {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
