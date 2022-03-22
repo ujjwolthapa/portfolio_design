@@ -17,6 +17,9 @@
   .section-cta {
     padding: 9.6rem 3.2rem 0 3.2rem;
   }
+}
+
+@media (max-width: 44em) {
   .btn-mobile-nav {
     display: block;
     z-index: 1000;

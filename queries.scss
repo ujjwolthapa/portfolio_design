@@ -21,6 +21,8 @@
       padding: 9.6rem 3.2rem 0 3.2rem;
     }
   }
+}
+@media (max-width: 44em) {
   .btn-mobile-nav {
     display: block;
     z-index: 1000;
@@ -73,6 +75,7 @@
     gap: 4.8rem;
   }
 }
+
 // 550px
 @media (max-width: 34em) {
   html {
