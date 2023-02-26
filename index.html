@@ -1,393 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio</title>
 
-    <link href="main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="queries.css" />
-    <link
-      crossorigin="anonymous"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      referrerpolicy="no-referrer"
-      rel="stylesheet"
-    />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </head>
-  <body>
-    <!-- header -->
-    <header class="header">
-      <img alt="logo-img" class="logo" src="img/bromx1.png" />
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li>
-            <a class="main-nav__link" href="#">Home</a>
-          </li>
-          <li>
-            <a class="main-nav__link" href="#features">Features</a>
-          </li>
-          <li>
-            <a class="main-nav__link" href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a class="main-nav__link" href="#resume">Resume</a>
-          </li>
-          <li>
-            <a class="main-nav__link nav-cta" href="#cta">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
-    </header>
-    <main>
-      <!-- hero -->
-      <section class="section-hero" id="#home">
-        <div class="section-hero__box">
-          <div class="section-hero__text-box">
-            <h1 class="heading-primary">Hey Its Me From Earth</h1>
-            <p class="section-hero__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              explicabo ratione quo aut. Veritatis ipsum, in voluptates
-              exercitationem quibusdam architecto adipisci ex cupiditate
-              officiis! Itaque error et cumque illum odio!
+<head>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Portfolio</title>
+
+  <link href="main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="queries.css" />
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    referrerpolicy="no-referrer" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <img alt="logo-img" class="logo" src="img/bromx1.png" />
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li>
+          <a class="main-nav__link" href="#">Home</a>
+        </li>
+        <li>
+          <a class="main-nav__link" href="#features">Features</a>
+        </li>
+        <li>
+          <a class="main-nav__link" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="main-nav__link" href="#resume">Resume</a>
+        </li>
+        <li>
+          <a class="main-nav__link nav-cta" href="#cta">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+  <main>
+    <!-- hero -->
+    <section class="section-hero" id="#home">
+      <div class="section-hero__box">
+        <div class="section-hero__text-box">
+          <h1 class="heading-primary">Hey Its Me From Earth</h1>
+          <p class="section-hero__description">
+            <span class="section-portfolio__heading">System & DevOps Enthusiastic</span>
+            <br />
+            I’m Ujjwol, a computer science graduate driven by my passion for
+            technology. <br />
+
+            I have worked as System Engineer, Web Developer & IT Support
+            Intern which helps me to gained hands on experience on creative
+            problem solving with strong understanding of computer systems and
+            web development. <br />
+          </p>
+          <a class="btn mb-md" href="">Learn More &rarr;</a>
+          <p class="section-hero__social-heading">Find Me At</p>
+          <div class="section-hero__social">
+            <a href="#">
+              <i class="fa-brands fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="section-hero__img-box">
+          <img alt="hero img" class="section-hero__img" src="img/02-min.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-- features -->
+    <section class="section-features container" id="features">
+      <div class="section-features__box">
+        <div class="features-text">
+          <span class="subtitle">Features</span>
+          <h2 class="heading-title mb-md">Things I Do</h2>
+        </div>
+        <div class="grid grid--3-cols">
+          <!-- card 1 -->
+          <div class="card card-features">
+            <div class="section-features__content-box">
+              <svg class="section-features__icon" classname="h-6 w-6" fill="none" stroke="currentColor"
+                viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <title>docker</title>
+                <path
+                  d="M30.679 13.367c-0.613-0.404-1.366-0.645-2.175-0.645-0.093 0-0.185 0.003-0.276 0.009l0.012-0.001c-0.446 0.001-0.882 0.041-1.306 0.115l0.046-0.007c-0.235-1.357-1.025-2.495-2.122-3.191l-0.019-0.011-0.429-0.248-0.282 0.408c-0.336 0.512-0.599 1.108-0.756 1.745l-0.008 0.039c-0.089 0.324-0.14 0.696-0.14 1.080 0 0.831 0.24 1.605 0.654 2.258l-0.010-0.017c-0.637 0.299-1.381 0.488-2.164 0.524l-0.013 0h-19.729c-0.516 0.001-0.934 0.418-0.936 0.933v0c-0.001 0.056-0.001 0.123-0.001 0.19 0 1.751 0.317 3.428 0.897 4.977l-0.032-0.098c0.558 1.633 1.612 2.975 2.98 3.881l0.028 0.017c1.744 0.903 3.808 1.432 5.995 1.432 0.207 0 0.412-0.005 0.617-0.014l-0.029 0.001c0.018 0 0.039 0 0.060 0 1.272 0 2.515-0.121 3.72-0.352l-0.123 0.020c1.795-0.336 3.395-0.939 4.845-1.773l-0.074 0.039c1.257-0.735 2.331-1.621 3.245-2.652l0.012-0.014c1.325-1.56 2.403-3.381 3.145-5.365l0.041-0.125h0.276c0.055 0.002 0.119 0.004 0.183 0.004 1.226 0 2.34-0.481 3.163-1.265l-0.002 0.002c0.377-0.358 0.676-0.793 0.873-1.281l0.009-0.024 0.122-0.359zM3.79 14.849h2.646c0.127-0.001 0.23-0.104 0.23-0.231 0 0 0 0 0 0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0.127 0.001-0.23 0.104-0.23 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM7.434 14.849h2.644c0.127 0 0.231-0.103 0.231-0.231 0 0 0 0 0-0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0 0-0 0-0 0-0.128 0-0.232 0.104-0.232 0.232 0 0 0 0 0 0v0 2.355c0.001 0.128 0.104 0.231 0.232 0.231v0zM11.132 14.849h2.646c0.127-0.001 0.23-0.104 0.23-0.231 0 0 0 0 0 0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0.127 0.001-0.23 0.104-0.23 0.231v0 2.356c0 0.127 0.103 0.231 0.231 0.231v0zM14.788 14.849h2.643c0 0 0 0 0 0 0.128 0 0.231-0.103 0.232-0.231v-2.355c0-0 0-0 0-0 0-0.128-0.104-0.232-0.232-0.232-0 0-0 0-0 0h-2.643c-0.127 0-0.231 0.103-0.231 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM7.434 11.461h2.644c0.128-0.001 0.231-0.104 0.231-0.232 0 0 0 0 0 0v0-2.355c0 0 0 0 0-0 0-0.127-0.103-0.231-0.231-0.231h-2.644c-0.128 0-0.231 0.103-0.232 0.231v2.355c0.001 0.128 0.104 0.231 0.232 0.232h0zM11.132 11.461h2.646c0.127-0.001 0.23-0.105 0.23-0.232v0-2.355c0 0 0 0 0-0 0-0.127-0.103-0.231-0.231-0.231h-2.643c-0.127 0-0.231 0.103-0.231 0.231 0 0 0 0 0 0v0 2.355c0.001 0.128 0.103 0.231 0.231 0.232h0zM14.788 11.461h2.643c0.128-0.001 0.231-0.104 0.232-0.232v-2.355c-0.001-0.128-0.104-0.231-0.232-0.231h-2.643c-0.127 0-0.231 0.103-0.231 0.231 0 0 0 0 0 0v0 2.355c0 0.128 0.103 0.231 0.231 0.232h0zM14.788 8.073h2.643c0 0 0 0 0 0 0.128 0 0.232-0.104 0.232-0.232 0-0 0-0 0-0v0-2.356c-0.001-0.128-0.104-0.231-0.232-0.231 0 0-0 0-0 0h-2.643c-0.127 0-0.231 0.103-0.231 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM18.475 14.849h2.644c0 0 0 0 0 0 0.128 0 0.231-0.103 0.232-0.231v-2.355c0-0 0-0 0-0 0-0.128-0.104-0.232-0.232-0.232-0 0-0 0-0 0h-2.644c0 0 0 0-0 0-0.128 0-0.231 0.103-0.231 0.231v2.356c0 0.127 0.103 0.231 0.231 0.231v0z">
+                </path>
+              </svg>
+              <span class="section-features__heading">Containerzation</span>
+              <p class="section-features__description">
+                Package applications in a way that is portable, easy to
+                deploy, and isolated from other applications running on the
+                same host.
+              </p>
+            </div>
+          </div>
+          <div class="card card-features">
+            <div class="section-features__content-box">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg class="section-features__icon" classname="h-6 w-6" fill="none" stroke="currentColor"
+                viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path fill="#000000" fill-rule="evenodd"
+                  d="M2.75 2.5A1.75 1.75 0 001 4.25v1C1 6.216 1.784 7 2.75 7h1a1.75 1.75 0 001.732-1.5H6.5a.75.75 0 01.75.75v3.5A2.25 2.25 0 009.5 12h1.018c.121.848.85 1.5 1.732 1.5h1A1.75 1.75 0 0015 11.75v-1A1.75 1.75 0 0013.25 9h-1a1.75 1.75 0 00-1.732 1.5H9.5a.75.75 0 01-.75-.75v-3.5A2.25 2.25 0 006.5 4H5.482A1.75 1.75 0 003.75 2.5h-1zM2.5 4.25A.25.25 0 012.75 4h1a.25.25 0 01.25.25v1a.25.25 0 01-.25.25h-1a.25.25 0 01-.25-.25v-1zm9.75 6.25a.25.25 0 00-.25.25v1c0 .138.112.25.25.25h1a.25.25 0 00.25-.25v-1a.25.25 0 00-.25-.25h-1z"
+                  clip-rule="evenodd" />
+              </svg>
+              <span class="section-features__heading">CICD pipeline</span>
+              <p class="section-features__description">
+                Software engineering practice that aims to automate the
+                process of building, testing, and deploying software
+                applications.
+              </p>
+            </div>
+          </div>
+          <div class="card card-features">
+            <div class="section-features__content-box">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg class="section-features__icon" classname="h-6 w-6" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke-width="2" />
+                <path d="M14 14L16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M15 11.5C15 13.433 13.433 15 11.5 15C9.567 15 8 13.433 8 11.5C8 9.567 9.567 8 11.5 8C13.433 8 15 9.567 15 11.5Z"
+                  stroke-width="2" />
+              </svg>
+              <span class="section-features__heading">Troubleshooting</span>
+              <p class="section-features__description">
+                Identifying, analyzing, and resolving problems or issues that
+                arise in a system, application, or device.
+              </p>
+            </div>
+          </div>
+          <div class="card-features">
+            <div class="section-features__content-box">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg class="section-features__icon" classname="h-6 w-6" fill="none" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M3 10V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V10M3 10V6C3 4.89543 3.89543 4 5 4H19C20.1046 4 21 4.89543 21 6V10M3 10H21"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="6" cy="7" r="1" />
+                <circle cx="9" cy="7" r="1" />
+              </svg>
+              <span class="section-features__heading">Web Development</span>
+              <p class="section-features__description">
+                Range of tasks, including web design, web programming,
+                server-side scripting, network security configuration, and
+                database management.
+              </p>
+            </div>
+          </div>
+          <div class="card-features">
+            <div class="section-features__content-box">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <?xml version="1.0" encoding="utf-8"?>
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg class="section-features__icon" classname="h-6 w-6" fill="none" viewBox="0 0 32 32" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>amazonaws</title>
+                <path
+                  d="M29.468 19.695c-0.419-0.537-2.77-0.258-3.836-0.129-0.318 0.040-0.368-0.24-0.079-0.449 0.893-0.569 1.981-0.907 3.148-0.907 0.778 0 1.52 0.15 2.201 0.423l-0.040-0.014c0.026 0.208 0.041 0.449 0.041 0.693 0 1.703-0.728 3.236-1.89 4.304l-0.004 0.004c-0.268 0.23-0.528 0.11-0.408-0.188 0.399-0.986 1.285-3.207 0.867-3.736zM28.102 21.25c-3.379 2.32-7.559 3.705-12.061 3.705-0.025 0-0.050-0-0.075-0h0.004c-0.034 0-0.074 0-0.113 0-5.663 0-10.825-2.144-14.718-5.665l0.019 0.017c-0.308-0.278-0.030-0.658 0.339-0.438 4.257 2.474 9.368 3.935 14.82 3.935 0 0 0.001 0 0.002 0h-0c4.087-0.023 7.97-0.87 11.499-2.385l-0.193 0.073c0.548-0.25 1.016 0.358 0.478 0.757zM26.219 16.408c-0.001 0-0.003 0-0.005 0-0.543 0-1.070-0.065-1.575-0.188l0.045 0.009c-0.432-0.090-0.815-0.228-1.171-0.411l0.025 0.012c-0.217-0.084-0.369-0.291-0.369-0.534 0-0.008 0-0.017 0.001-0.025l-0 0.001v-0.508c0-0.208 0.080-0.308 0.228-0.308 0.064 0 0.126 0.011 0.184 0.031l-0.004-0.001c0.060 0.020 0.15 0.060 0.25 0.1 0.313 0.142 0.679 0.262 1.061 0.342l0.035 0.006c0.356 0.076 0.766 0.12 1.185 0.12h0c0.047 0.003 0.102 0.005 0.157 0.005 0.476 0 0.923-0.124 1.31-0.341l-0.014 0.007c0.313-0.191 0.518-0.531 0.518-0.919 0-0.010-0-0.019-0-0.029l0 0.001c0-0.008 0-0.018 0-0.028 0-0.26-0.102-0.496-0.269-0.67l0 0c-0.28-0.238-0.618-0.417-0.99-0.514l-0.018-0.004-1.444-0.449c-0.645-0.168-1.191-0.526-1.589-1.009l-0.004-0.005c-0.309-0.395-0.497-0.898-0.499-1.444v-0.001c-0-0.013-0-0.028-0-0.043 0-0.39 0.1-0.756 0.276-1.075l-0.006 0.011c0.183-0.326 0.424-0.598 0.711-0.811l0.007-0.005c0.294-0.226 0.64-0.403 1.014-0.512l0.022-0.006c0.36-0.108 0.774-0.17 1.203-0.17 0.018 0 0.037 0 0.055 0l-0.003-0c0.010-0 0.023-0 0.035-0 0.223 0 0.442 0.015 0.658 0.043l-0.025-0.003c0.228 0.030 0.437 0.070 0.646 0.11 0.2 0.050 0.389 0.1 0.568 0.158 0.161 0.050 0.3 0.111 0.43 0.185l-0.011-0.006c0.12 0.061 0.22 0.145 0.298 0.247l0.002 0.002c0.056 0.083 0.090 0.186 0.090 0.297 0 0.011-0 0.022-0.001 0.033l0-0.002v0.468c0 0.21-0.080 0.319-0.23 0.319-0.141-0.017-0.269-0.059-0.383-0.123l0.005 0.003c-0.542-0.246-1.175-0.389-1.842-0.389-0.025 0-0.049 0-0.074 0.001l0.004-0c-0.046-0.003-0.1-0.005-0.154-0.005-0.428 0-0.831 0.105-1.186 0.29l0.014-0.007c-0.283 0.17-0.47 0.476-0.47 0.826 0 0.021 0.001 0.042 0.002 0.063l-0-0.003c-0 0.006-0 0.013-0 0.020 0 0.271 0.115 0.516 0.299 0.687l0.001 0.001c0.308 0.247 0.674 0.437 1.074 0.544l0.021 0.005 1.415 0.447c0.62 0.163 1.147 0.499 1.541 0.953l0.003 0.004c0.286 0.374 0.458 0.848 0.458 1.363 0 0.011-0 0.022-0 0.033l0-0.002c0 0.009 0 0.021 0 0.032 0 0.409-0.095 0.796-0.265 1.139l0.007-0.015c-0.183 0.348-0.428 0.641-0.722 0.873l-0.006 0.004c-0.313 0.245-0.682 0.437-1.083 0.552l-0.023 0.006c-0.417 0.132-0.897 0.208-1.394 0.208-0.011 0-0.022-0-0.032-0h0.002zM13.421 16.14c-0.017 0.002-0.037 0.003-0.057 0.003-0.121 0-0.233-0.038-0.324-0.104l0.002 0.001c-0.101-0.104-0.175-0.236-0.209-0.383l-0.001-0.005-2.34-7.701c-0.042-0.116-0.074-0.251-0.089-0.392l-0.001-0.008c-0.002-0.010-0.002-0.021-0.002-0.032 0-0.121 0.098-0.219 0.219-0.219 0.008 0 0.015 0 0.023 0.001l-0.001-0h0.977c0.019-0.002 0.042-0.004 0.065-0.004 0.121 0 0.233 0.039 0.324 0.105l-0.002-0.001c0.098 0.105 0.169 0.237 0.199 0.384l0.001 0.005 1.675 6.594 1.554-6.594c0.022-0.152 0.090-0.286 0.189-0.39l-0 0c0.102-0.063 0.226-0.101 0.358-0.101 0.014 0 0.029 0 0.043 0.001l-0.002-0h0.796c0.018-0.002 0.039-0.003 0.061-0.003 0.126 0 0.243 0.038 0.341 0.104l-0.002-0.001c0.101 0.102 0.169 0.236 0.188 0.386l0 0.003 1.574 6.674 1.723-6.674c0.034-0.151 0.104-0.283 0.2-0.39l-0.001 0.001c0.099-0.063 0.219-0.101 0.348-0.101 0.014 0 0.028 0 0.042 0.001l-0.002-0h0.927c0.009-0.001 0.018-0.002 0.028-0.002 0.123 0 0.223 0.1 0.223 0.223 0 0.010-0.001 0.020-0.002 0.030l0-0.001c-0.003 0.059-0.011 0.113-0.022 0.166l0.001-0.007c-0.018 0.095-0.042 0.179-0.073 0.259l0.003-0.010-2.4 7.7c-0.032 0.153-0.106 0.285-0.21 0.388l-0 0c-0.097 0.063-0.216 0.101-0.344 0.101-0.012 0-0.024-0-0.036-0.001l0.002 0h-0.857c-0.018 0.002-0.040 0.003-0.062 0.003-0.126 0-0.243-0.038-0.34-0.104l0.002 0.001c-0.1-0.106-0.168-0.243-0.187-0.396l-0-0.003-1.545-6.424-1.535 6.414c-0.025 0.155-0.092 0.291-0.188 0.4l0.001-0.001c-0.096 0.064-0.215 0.102-0.342 0.102-0.020 0-0.040-0.001-0.059-0.003l0.002 0zM5.421 15.064c0.369-0.004 0.721-0.070 1.048-0.187l-0.023 0.007c0.377-0.133 0.696-0.352 0.944-0.634l0.002-0.002c0.155-0.177 0.273-0.391 0.337-0.628l0.003-0.011c0.063-0.254 0.1-0.545 0.1-0.845 0-0.007-0-0.015-0-0.022v0.001-0.418c-0.247-0.064-0.558-0.124-0.875-0.165l-0.042-0.005c-0.281-0.038-0.606-0.059-0.935-0.060h-0.001c-0.054-0.005-0.117-0.007-0.181-0.007-0.488 0-0.94 0.152-1.312 0.411l0.007-0.005c-0.3 0.256-0.489 0.634-0.489 1.057 0 0.031 0.001 0.061 0.003 0.092l-0-0.004c-0.003 0.033-0.004 0.071-0.004 0.11 0 0.366 0.142 0.699 0.373 0.947l-0.001-0.001c0.246 0.231 0.577 0.373 0.942 0.373 0.036 0 0.072-0.001 0.108-0.004l-0.005 0zM9.465 13.549c-0.001 0.023-0.001 0.051-0.001 0.079 0 0.287 0.040 0.565 0.116 0.829l-0.005-0.021c0.102 0.283 0.21 0.52 0.333 0.747l-0.014-0.028c0.043 0.064 0.069 0.143 0.070 0.228v0c-0.013 0.128-0.085 0.236-0.188 0.299l-0.002 0.001-0.628 0.418c-0.072 0.053-0.162 0.086-0.259 0.090l-0.001 0c-0.118-0.008-0.222-0.060-0.298-0.139l-0-0c-0.129-0.139-0.248-0.292-0.351-0.455l-0.008-0.013q-0.167-0.287-0.309-0.588c-0.68 0.841-1.712 1.374-2.868 1.374-0.021 0-0.043-0-0.064-0.001l0.003 0c-0.043 0.002-0.094 0.004-0.145 0.004-0.713 0-1.363-0.274-1.849-0.722l0.002 0.002c-0.457-0.462-0.739-1.098-0.739-1.8 0-0.040 0.001-0.080 0.003-0.119l-0 0.006c-0.001-0.028-0.002-0.062-0.002-0.095 0-0.783 0.351-1.483 0.904-1.953l0.004-0.003c0.612-0.488 1.396-0.783 2.249-0.783 0.067 0 0.134 0.002 0.2 0.005l-0.009-0c0.375 0.003 0.741 0.032 1.099 0.085l-0.043-0.005c0.369 0.050 0.749 0.13 1.146 0.22v-0.728c0.007-0.067 0.011-0.144 0.011-0.222 0-0.521-0.181-0.999-0.483-1.376l0.003 0.004c-0.38-0.293-0.864-0.47-1.389-0.47-0.082 0-0.164 0.004-0.244 0.013l0.010-0.001c-0.002 0-0.004 0-0.006 0-0.38 0-0.749 0.047-1.102 0.135l0.031-0.007c-0.423 0.102-0.782 0.218-1.129 0.358l0.053-0.019c-0.094 0.044-0.21 0.088-0.329 0.124l-0.020 0.005c-0.047 0.016-0.101 0.026-0.157 0.029l-0.001 0c-0.14 0-0.21-0.1-0.21-0.308v-0.488c-0.002-0.017-0.002-0.036-0.002-0.056 0-0.107 0.027-0.208 0.074-0.297l-0.002 0.003c0.075-0.089 0.168-0.16 0.275-0.207l0.005-0.002c0.359-0.183 0.778-0.338 1.215-0.441l0.039-0.008c0.45-0.12 0.966-0.189 1.498-0.189 0.020 0 0.040 0 0.060 0l-0.003-0c0.092-0.008 0.199-0.013 0.308-0.013 0.876 0 1.68 0.31 2.308 0.825l-0.006-0.005c0.519 0.579 0.836 1.349 0.836 2.193 0 0.091-0.004 0.18-0.011 0.269l0.001-0.012v3.227z">
+                </path>
+              </svg>
+              <span class="section-features__heading">AWS EC2</span>
+              <p class="section-features__description">
+                Instances can be used to run a variety of applications, from
+                simple web servers to complex big data workloads.
+              </p>
+            </div>
+          </div>
+          <div class="card-features">
+            <div class="section-features__content-box">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg class="section-features__icon" classname="h-6 w-6" fill="none" viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M14.156 15.297l6.25 4.927-4.141-10.214zM16 0c-8.839 0-16 7.161-16 16s7.161 16 16 16c8.839 0 16-7.161 16-16s-7.161-16-16-16zM23.729 23.073c-0.016 0.63-0.536 1.125-1.167 1.109-0.313 0-0.552-0.12-0.885-0.391l-8.255-6.667-2.771 6.938h-2.396l6.995-16.807c0.167-0.422 0.568-0.693 1.021-0.677 0.432-0.016 0.839 0.25 0.99 0.677l6.365 15.323c0.057 0.151 0.104 0.313 0.104 0.464 0 0.010 0 0.010 0 0.031z" />
+              </svg>
+              <span class="section-features__heading">Ansible</span>
+              <p class="section-features__description">
+                Tool that helps to automate the configuration, deployment, and
+                management of applications and infrastructure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <section class="section-portfolio container" id="portfolio">
+      <div class="portfolio-text">
+        <span class="subtitle">visit my portfolio </span>
+        <h2 class="heading-title mb-md">My Portfolio</h2>
+      </div>
+      <div class="section-portfolio__box grid grid--3-cols">
+        <div class="card-portfolio">
+
+          <div class="section-portfolio__content-box" style="cursor: pointer;" onclick="window.open('https://github.com/ujjwolthapa/ecommerceapi', '_blank');
+            ">
+            <svg fill="#000000" class="portfolio-img" viewBox="0 0 32 32" version="1.1"
+              xmlns="http://www.w3.org/2000/svg">
+              <title>docker</title>
+              <path
+                d="M30.679 13.367c-0.613-0.404-1.366-0.645-2.175-0.645-0.093 0-0.185 0.003-0.276 0.009l0.012-0.001c-0.446 0.001-0.882 0.041-1.306 0.115l0.046-0.007c-0.235-1.357-1.025-2.495-2.122-3.191l-0.019-0.011-0.429-0.248-0.282 0.408c-0.336 0.512-0.599 1.108-0.756 1.745l-0.008 0.039c-0.089 0.324-0.14 0.696-0.14 1.080 0 0.831 0.24 1.605 0.654 2.258l-0.010-0.017c-0.637 0.299-1.381 0.488-2.164 0.524l-0.013 0h-19.729c-0.516 0.001-0.934 0.418-0.936 0.933v0c-0.001 0.056-0.001 0.123-0.001 0.19 0 1.751 0.317 3.428 0.897 4.977l-0.032-0.098c0.558 1.633 1.612 2.975 2.98 3.881l0.028 0.017c1.744 0.903 3.808 1.432 5.995 1.432 0.207 0 0.412-0.005 0.617-0.014l-0.029 0.001c0.018 0 0.039 0 0.060 0 1.272 0 2.515-0.121 3.72-0.352l-0.123 0.020c1.795-0.336 3.395-0.939 4.845-1.773l-0.074 0.039c1.257-0.735 2.331-1.621 3.245-2.652l0.012-0.014c1.325-1.56 2.403-3.381 3.145-5.365l0.041-0.125h0.276c0.055 0.002 0.119 0.004 0.183 0.004 1.226 0 2.34-0.481 3.163-1.265l-0.002 0.002c0.377-0.358 0.676-0.793 0.873-1.281l0.009-0.024 0.122-0.359zM3.79 14.849h2.646c0.127-0.001 0.23-0.104 0.23-0.231 0 0 0 0 0 0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0.127 0.001-0.23 0.104-0.23 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM7.434 14.849h2.644c0.127 0 0.231-0.103 0.231-0.231 0 0 0 0 0-0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0 0-0 0-0 0-0.128 0-0.232 0.104-0.232 0.232 0 0 0 0 0 0v0 2.355c0.001 0.128 0.104 0.231 0.232 0.231v0zM11.132 14.849h2.646c0.127-0.001 0.23-0.104 0.23-0.231 0 0 0 0 0 0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0.127 0.001-0.23 0.104-0.23 0.231v0 2.356c0 0.127 0.103 0.231 0.231 0.231v0zM14.788 14.849h2.643c0 0 0 0 0 0 0.128 0 0.231-0.103 0.232-0.231v-2.355c0-0 0-0 0-0 0-0.128-0.104-0.232-0.232-0.232-0 0-0 0-0 0h-2.643c-0.127 0-0.231 0.103-0.231 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM7.434 11.461h2.644c0.128-0.001 0.231-0.104 0.231-0.232 0 0 0 0 0 0v0-2.355c0 0 0 0 0-0 0-0.127-0.103-0.231-0.231-0.231h-2.644c-0.128 0-0.231 0.103-0.232 0.231v2.355c0.001 0.128 0.104 0.231 0.232 0.232h0zM11.132 11.461h2.646c0.127-0.001 0.23-0.105 0.23-0.232v0-2.355c0 0 0 0 0-0 0-0.127-0.103-0.231-0.231-0.231h-2.643c-0.127 0-0.231 0.103-0.231 0.231 0 0 0 0 0 0v0 2.355c0.001 0.128 0.103 0.231 0.231 0.232h0zM14.788 11.461h2.643c0.128-0.001 0.231-0.104 0.232-0.232v-2.355c-0.001-0.128-0.104-0.231-0.232-0.231h-2.643c-0.127 0-0.231 0.103-0.231 0.231 0 0 0 0 0 0v0 2.355c0 0.128 0.103 0.231 0.231 0.232h0zM14.788 8.073h2.643c0 0 0 0 0 0 0.128 0 0.232-0.104 0.232-0.232 0-0 0-0 0-0v0-2.356c-0.001-0.128-0.104-0.231-0.232-0.231 0 0-0 0-0 0h-2.643c-0.127 0-0.231 0.103-0.231 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM18.475 14.849h2.644c0 0 0 0 0 0 0.128 0 0.231-0.103 0.232-0.231v-2.355c0-0 0-0 0-0 0-0.128-0.104-0.232-0.232-0.232-0 0-0 0-0 0h-2.644c0 0 0 0-0 0-0.128 0-0.231 0.103-0.231 0.231v2.356c0 0.127 0.103 0.231 0.231 0.231v0z">
+              </path>
+            </svg>
+            <span class="section-portfolio__heading">Containerze Rest Api</span>
+            <p class="section-portfolio__description">
+              Containerze the rest api of ecommerece with postgres database
+              during my free and learning time using docker.
             </p>
-            <a class="btn mb-md" href="">Learn More &rarr;</a>
-            <p class="section-hero__social-heading">Find Me At</p>
-            <div class="section-hero__social">
-              <a href="#">
-                <i class="fa-brands fa-facebook-square"></i>
-              </a>
-              <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
           </div>
 
-          <div class="section-hero__img-box">
-            <img
-              alt="hero img"
-              class="section-hero__img"
-              src="img/02-min.jpg"
-            />
-          </div>
         </div>
-      </section>
-      <!-- features -->
-      <section class="section-features container" id="features">
-        <div class="section-features__box">
-          <div class="features-text">
-            <span class="subtitle">Features</span>
-            <h2 class="heading-title mb-md">Things I Do</h2>
-          </div>
-          <div class="grid grid--3-cols">
-            <!-- card 1 -->
-            <div class="card card-features">
-              <div class="section-features__content-box">
-                <svg
-                  class="section-features__icon"
-                  classname="h-6 w-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewbox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                    strokelinecap="round"
-                    strokelinejoin="round"
-                    strokewidth="{2}"
-                  />
-                </svg>
-                <span class="section-features__heading">Web Development</span>
-                <p class="section-features__description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-                </p>
-              </div>
-            </div>
-            <div class="card card-features">
-              <div class="section-features__content-box">
-                <svg
-                  class="section-features__icon"
-                  classname="h-6 w-6 "
-                  fill="none"
-                  stroke="currentColor"
-                  viewbox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
-                    strokelinecap="round"
-                    strokelinejoin="round"
-                    strokewidth="{2}"
-                  />
-                </svg>
-                <span class="section-features__heading">Video Editor</span>
-                <p class="section-features__description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-                </p>
-              </div>
-            </div>
-            <div class="card-features">
-              <div class="section-features__content-box">
-                <svg
-                  class="h-6 w-6 section-features__icon"
-                  fill="none"
-                  stroke="currentColor"
-                  viewbox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4 8h16M4 16h16"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                </svg>
-                <span class="section-features__heading">Graphic Design</span>
-                <p class="section-features__description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- portfolio -->
-      <section class="section-portfolio container" id="portfolio">
-        <div class="portfolio-text">
-          <span class="subtitle">visit my portfolio </span>
-          <h2 class="heading-title mb-md">My Portfolio</h2>
-        </div>
-        <div class="section-portfolio__box grid grid--3-cols">
-          <div class="card-portfolio">
-            <div class="section-portfolio__content-box">
-              <svg
-                class="portfolio-img"
-                height="2500"
-                viewbox="0 -.11376601 49.74245785 51.31690859"
-                width="2418"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z"
-                  fill="#ff2d20"
-                />
-              </svg>
-              <span class="section-portfolio__heading">Blog App</span>
-              <p class="section-portfolio__description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-              </p>
-            </div>
-          </div>
-          <div class="card-portfolio">
-            <div class="section-portfolio__content-box">
-              <svg
-                class="portfolio-img"
-                height="2500"
-                preserveaspectratio="xMinYMin meet"
-                viewbox="0 0 256 326"
-                width="1963"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="#2BA977">
-                  <path
-                    d="M114.784 0h53.278v244.191c-27.29 5.162-47.38 7.193-69.117 7.193C33.873 251.316 0 222.245 0 166.412c0-53.795 35.93-88.708 91.608-88.708 8.64 0 15.222.68 23.176 2.717V0zm1.867 124.427c-6.24-2.038-11.382-2.717-17.965-2.717-26.947 0-42.512 16.437-42.512 45.243 0 28.046 14.88 43.532 42.17 43.532 5.896 0 10.696-.332 18.307-1.351v-84.707z"
-                  />
-                  <path
-                    d="M255.187 84.26v122.263c0 42.105-3.154 62.353-12.411 79.81-8.64 16.783-20.022 27.366-43.541 39.055l-49.438-23.297c23.519-10.93 34.901-20.588 42.17-35.327 7.61-15.072 10.01-32.529 10.01-78.445V84.261h53.21zM196.608 0h53.278v54.135h-53.278V0z"
-                  />
-                </g>
-              </svg>
+        <div class="card-portfolio">
+          <div class="section-portfolio__content-box" style="cursor: pointer;" onclick="window.open('https://github.com/ujjwolthapa/hello-world-nodeapp', '_blank');
+          ">
+            <svg fill="#000000" class="portfolio-img" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.984 13.836a.5.5 0 0 1-.353-.146l-.745-.743a.5.5 0 1 1 .706-.708l.392.391 1.181-1.18a.5.5 0 0 1 .708.707l-1.535 1.533a.504.504 0 0 1-.354.146zm9.353-.147l1.534-1.532a.5.5 0 0 0-.707-.707l-1.181 1.18-.392-.391a.5.5 0 1 0-.706.708l.746.743a.497.497 0 0 0 .706-.001zM4.527 7.452l2.557-1.585A1 1 0 0 0 7.09 4.17L4.533 2.56A1 1 0 0 0 3 3.406v3.196a1.001 1.001 0 0 0 1.527.85zm2.03-2.436L4 6.602V3.406l2.557 1.61zM24 12.5c0 1.93-1.57 3.5-3.5 3.5a3.503 3.503 0 0 1-3.46-3h-2.08a3.503 3.503 0 0 1-3.46 3 3.502 3.502 0 0 1-3.46-3h-.558c-.972 0-1.85-.399-2.482-1.042V17c0 1.654 1.346 3 3 3h.04c.244-1.693 1.7-3 3.46-3 1.93 0 3.5 1.57 3.5 3.5S13.43 24 11.5 24a3.502 3.502 0 0 1-3.46-3H8c-2.206 0-4-1.794-4-4V9.899A5.008 5.008 0 0 1 0 5c0-2.757 2.243-5 5-5s5 2.243 5 5a5.005 5.005 0 0 1-4.952 4.998A2.482 2.482 0 0 0 7.482 12h.558c.244-1.693 1.7-3 3.46-3a3.502 3.502 0 0 1 3.46 3h2.08a3.503 3.503 0 0 1 3.46-3c1.93 0 3.5 1.57 3.5 3.5zm-15 8c0 1.378 1.122 2.5 2.5 2.5s2.5-1.122 2.5-2.5-1.122-2.5-2.5-2.5S9 19.122 9 20.5zM5 9c2.206 0 4-1.794 4-4S7.206 1 5 1 1 2.794 1 5s1.794 4 4 4zm9 3.5c0-1.378-1.122-2.5-2.5-2.5S9 11.122 9 12.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5zm9 0c0-1.378-1.122-2.5-2.5-2.5S18 11.122 18 12.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5zm-13 8a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0zm12 0c0 1.93-1.57 3.5-3.5 3.5a3.503 3.503 0 0 1-3.46-3.002c-.007.001-.013.005-.021.005l-.506.017h-.017a.5.5 0 0 1-.016-.999l.506-.017c.018-.002.035.006.052.007A3.503 3.503 0 0 1 20.5 17c1.93 0 3.5 1.57 3.5 3.5zm-1 0c0-1.378-1.122-2.5-2.5-2.5S18 19.122 18 20.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5z" />
+            </svg>
 
-              <span class="section-portfolio__heading">Weather App</span>
-              <p class="section-portfolio__description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-              </p>
+            <span class="section-portfolio__heading">Node CI</span>
+            <p class="section-portfolio__description">
+              simple node application continous intergration using github
+              actions
+            </p>
+          </div>
+        </div>
+        <div class="card-portfolio">
+          <div class="section-portfolio__content-box" onclick="window.open('https://github.com/ujjwolthapa/WeatherApp', '_blank');
+          ">
+            <svg fill="#000000" class="portfolio-img" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.984 13.836a.5.5 0 0 1-.353-.146l-.745-.743a.5.5 0 1 1 .706-.708l.392.391 1.181-1.18a.5.5 0 0 1 .708.707l-1.535 1.533a.504.504 0 0 1-.354.146zm9.353-.147l1.534-1.532a.5.5 0 0 0-.707-.707l-1.181 1.18-.392-.391a.5.5 0 1 0-.706.708l.746.743a.497.497 0 0 0 .706-.001zM4.527 7.452l2.557-1.585A1 1 0 0 0 7.09 4.17L4.533 2.56A1 1 0 0 0 3 3.406v3.196a1.001 1.001 0 0 0 1.527.85zm2.03-2.436L4 6.602V3.406l2.557 1.61zM24 12.5c0 1.93-1.57 3.5-3.5 3.5a3.503 3.503 0 0 1-3.46-3h-2.08a3.503 3.503 0 0 1-3.46 3 3.502 3.502 0 0 1-3.46-3h-.558c-.972 0-1.85-.399-2.482-1.042V17c0 1.654 1.346 3 3 3h.04c.244-1.693 1.7-3 3.46-3 1.93 0 3.5 1.57 3.5 3.5S13.43 24 11.5 24a3.502 3.502 0 0 1-3.46-3H8c-2.206 0-4-1.794-4-4V9.899A5.008 5.008 0 0 1 0 5c0-2.757 2.243-5 5-5s5 2.243 5 5a5.005 5.005 0 0 1-4.952 4.998A2.482 2.482 0 0 0 7.482 12h.558c.244-1.693 1.7-3 3.46-3a3.502 3.502 0 0 1 3.46 3h2.08a3.503 3.503 0 0 1 3.46-3c1.93 0 3.5 1.57 3.5 3.5zm-15 8c0 1.378 1.122 2.5 2.5 2.5s2.5-1.122 2.5-2.5-1.122-2.5-2.5-2.5S9 19.122 9 20.5zM5 9c2.206 0 4-1.794 4-4S7.206 1 5 1 1 2.794 1 5s1.794 4 4 4zm9 3.5c0-1.378-1.122-2.5-2.5-2.5S9 11.122 9 12.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5zm9 0c0-1.378-1.122-2.5-2.5-2.5S18 11.122 18 12.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5zm-13 8a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0zm12 0c0 1.93-1.57 3.5-3.5 3.5a3.503 3.503 0 0 1-3.46-3.002c-.007.001-.013.005-.021.005l-.506.017h-.017a.5.5 0 0 1-.016-.999l.506-.017c.018-.002.035.006.052.007A3.503 3.503 0 0 1 20.5 17c1.93 0 3.5 1.57 3.5 3.5zm-1 0c0-1.378-1.122-2.5-2.5-2.5S18 19.122 18 20.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5z" />
+            </svg>
+
+            <span class="section-portfolio__heading">CICD pipeline</span>
+            <p class="section-portfolio__description">
+              Created CICD pipeline for WeatherApp using github action
+            </p>
+          </div>
+        </div>
+        <div class="card-portfolio">
+          <div class="section-portfolio__content-box" onclick="window.open('https://github.com/ujjwolthapa/webserver-ansibleplaybook', '_blank');
+          ">
+            <svg class="portfolio-img" classname="h-6 w-6" fill="#000000" viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.156 15.297l6.25 4.927-4.141-10.214zM16 0c-8.839 0-16 7.161-16 16s7.161 16 16 16c8.839 0 16-7.161 16-16s-7.161-16-16-16zM23.729 23.073c-0.016 0.63-0.536 1.125-1.167 1.109-0.313 0-0.552-0.12-0.885-0.391l-8.255-6.667-2.771 6.938h-2.396l6.995-16.807c0.167-0.422 0.568-0.693 1.021-0.677 0.432-0.016 0.839 0.25 0.99 0.677l6.365 15.323c0.057 0.151 0.104 0.313 0.104 0.464 0 0.010 0 0.010 0 0.031z" />
+            </svg>
+            <span class="section-portfolio__heading">Ansible</span>
+            <p class="section-portfolio__description">
+              Ansible playbook for setup of nginx and docker in server.
+            </p>
+          </div>
+        </div>
+        <div class="card-portfolio">
+          <div class="section-portfolio__content-box" onclick="window.open('https://github.com/ujjwolthapa/kubernetes-practice', '_blank');
+          ">
+            <svg class="portfolio-img" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+              <path fill="#000000" fill-rule="evenodd"
+                d="M5.374 15c-.335 0-.66-.153-.874-.431l-3.254-4.172a1.15 1.15 0 01-.214-.978l1.165-5.207c.074-.345.298-.623.605-.776l4.715-2.32c.15-.078.317-.116.485-.116.168 0 .335.038.485.115L13.2 3.426c.308.153.532.432.606.777l1.165 5.207c.074.345 0 .7-.214.978L11.5 14.566c-.214.268-.54.434-.875.434h-5.25zm7.718-5.835l.031.008a.308.308 0 01.26.371.306.306 0 01-.396.223h-.004l-.003-.001-.003-.001-.03-.007-.05-.01a2.548 2.548 0 01-.274-.106 2.87 2.87 0 00-.533-.156.242.242 0 00-.171.063 4.76 4.76 0 00-.131-.023 3.972 3.972 0 01-1.764 2.212c.015.042.032.083.051.123a.239.239 0 00-.023.18c.074.17.165.332.271.484.06.078.114.16.164.244l.028.057.012.025a.306.306 0 01-.381.44.307.307 0 01-.172-.18 2.608 2.608 0 00-.01-.02l-.028-.058a2.545 2.545 0 01-.089-.28 2.835 2.835 0 00-.21-.512.242.242 0 00-.156-.095 5.926 5.926 0 01-.03-.053l-.035-.064a3.97 3.97 0 01-2.824-.007l-.069.125a.249.249 0 00-.132.064c-.104.17-.184.355-.237.548a2.525 2.525 0 01-.088.28l-.025.05-.013.027v.001a.307.307 0 11-.553-.261l.014-.03.026-.052c.05-.085.104-.166.164-.244.108-.156.2-.322.277-.496a.302.302 0 00-.028-.173l.056-.133A3.972 3.972 0 014.22 9.532l-.134.023a.34.34 0 00-.176-.062 2.872 2.872 0 00-.533.156c-.09.04-.181.075-.274.105l-.05.011-.03.007H3.02l-.002.002h-.005a.308.308 0 01-.397-.349.306.306 0 01.261-.245l.004-.001h.003l.006-.002c.024-.006.054-.014.076-.018.097-.013.195-.021.293-.023.186-.013.37-.043.549-.09a.422.422 0 00.131-.133l.128-.037a3.938 3.938 0 01.624-2.752l-.097-.087a.338.338 0 00-.062-.176 2.854 2.854 0 00-.455-.319 2.557 2.557 0 01-.254-.148 1.129 1.129 0 01-.063-.05l-.004-.004a.323.323 0 01-.076-.45.295.295 0 01.244-.107.365.365 0 01.213.08l.022.017c.016.013.034.026.046.037.071.067.139.139.202.213.125.137.263.262.412.372.056.03.121.036.182.018l.11.078a3.938 3.938 0 012.552-1.224l.007-.129a.332.332 0 00.1-.157 2.844 2.844 0 00-.034-.554 2.555 2.555 0 01-.042-.29v-.053-.025-.004-.004A.306.306 0 018 2.82a.308.308 0 01.306.337v.087a2.53 2.53 0 01-.041.29 2.85 2.85 0 00-.035.553.242.242 0 00.1.153v.007l.007.13c.967.087 1.87.522 2.54 1.223l.116-.083a.34.34 0 00.186-.02c.149-.11.287-.235.412-.373a2.53 2.53 0 01.202-.213l.051-.04.017-.014a.308.308 0 01.472.388.307.307 0 01-.09.09c-.008.005-.017.012-.025.02l-.043.033a2.549 2.549 0 01-.254.148 2.865 2.865 0 00-.455.32.24.24 0 00-.058.172 4.458 4.458 0 01-.05.044l-.058.053c.542.806.769 1.783.637 2.745l.123.036c.031.056.077.101.132.132.18.048.364.078.55.09.097.003.195.01.292.024l.058.013zm-2.875-3.1l-1.308.925-.004-.002a.27.27 0 01-.43-.205v-.001l-.091-1.598a3.183 3.183 0 011.833.882zM7.754 7.818h.492l.306.381-.11.476L8 8.886l-.443-.213-.11-.475.307-.381zM7.29 5.24c.107-.024.216-.043.326-.056l-.09 1.6-.008.004a.268.268 0 01-.293.256.27.27 0 01-.135-.05l-.002.001-1.316-.93c.419-.41.945-.696 1.518-.825zM5.296 6.663l1.201 1.071-.001.007a.269.269 0 01-.106.462l-.001.005-1.54.443a3.134 3.134 0 01.447-1.988zm1.608 2.846l-.612 1.474a3.16 3.16 0 01-1.27-1.586L6.6 9.13l.003.003a.265.265 0 01.18.029.27.27 0 01.117.341l.004.006zm1.806 1.896c-.572.13-1.17.1-1.726-.088l.777-1.4h.001a.27.27 0 01.475-.001h.006l.779 1.402a3.286 3.286 0 01-.312.087zm1.004-.416L9.096 9.5l.001-.003a.269.269 0 01.296-.37l.003-.004 1.593.269a3.147 3.147 0 01-1.275 1.597zm1.442-2.343L9.61 8.201l-.002-.006a.27.27 0 01-.185-.343.27.27 0 01.08-.12L9.5 7.73l1.195-1.067c.366.594.527 1.29.46 1.983z"
+                clip-rule="evenodd" />
+            </svg>
+
+            <span class="section-portfolio__heading">Kubernetes practice</span>
+            <p class="section-portfolio__description">
+              Used Kubernetes used volume mounts,secrets and configmap run multiple replica of container.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-portfolio">
+          <div class="section-portfolio__content-box" onclick="window.open('https://github.com/ujjwolthapa/Hydropower-Graph-', '_blank');
+          ">
+            <svg fill="#000000" class="portfolio-img" viewBox="0 0 32 32" version="1.1"
+              xmlns="http://www.w3.org/2000/svg">
+
+              <path
+                d="M19.212 26.447l-0.287 0.412-0.1 0.512 0.1 0.512 0.287 0.412 0.412 0.287 0.512 0.1 0.512-0.1 0.412-0.287 0.287-0.412 0.1-0.512-0.1-0.512-0.287-0.412-0.412-0.287-0.512-0.1-0.512 0.1zM27.297 8.64l0.35 0.075 0.4 0.15 0.437 0.225 0.45 0.337 0.45 0.437 0.437 0.587 0.4 0.737 0.35 0.912 0.262 1.1 0.175 1.3 0.062 1.537-0.075 1.537-0.2 1.3-0.3 1.075-0.4 0.887-0.45 0.712-0.5 0.562-0.525 0.412-0.525 0.3-0.5 0.2-0.45 0.112-0.4 0.062-0.3 0.025-0.2-0.012h-10.272v1.025h7.298l0.012 3.449 0.025 0.45-0.062 0.425-0.137 0.387-0.212 0.362-0.312 0.312-0.387 0.3-0.475 0.25-0.55 0.212-0.637 0.187-0.725 0.162-0.8 0.112-0.887 0.087-0.962 0.050-1.050 0.012-1.587-0.050-1.337-0.175-1.125-0.25-0.912-0.312-0.737-0.375-0.562-0.412-0.425-0.425-0.312-0.425-0.2-0.412-0.125-0.375-0.050-0.312-0.025-0.25 0.012-0.162v-6.673l0.063-0.8 0.162-0.675 0.262-0.575 0.325-0.475 0.375-0.4 0.412-0.3 0.437-0.25 0.437-0.175 0.412-0.125 0.375-0.075 0.325-0.050 0.262-0.025 0.162-0.012h7.298l0.862-0.062 0.737-0.175 0.625-0.262 0.512-0.35 0.412-0.4 0.337-0.437 0.25-0.45 0.187-0.45 0.125-0.437 0.087-0.4 0.050-0.35 0.025-0.262v-3.824h2.612l0.175 0.012zM10.939 3.704l-0.287 0.412-0.1 0.512 0.1 0.512 0.287 0.425 0.412 0.275 0.512 0.112 0.512-0.113 0.412-0.275 0.287-0.425 0.1-0.512-0.1-0.512-0.287-0.412-0.412-0.275-0.512-0.112-0.512 0.112zM18.812 1.229l1.125 0.25 0.912 0.325 0.737 0.375 0.562 0.4 0.425 0.425 0.312 0.425 0.2 0.412 0.125 0.375 0.050 0.325 0.025 0.25-0.012 0.162v6.673l-0.062 0.787-0.162 0.687-0.262 0.575-0.325 0.475-0.375 0.387-0.412 0.312-0.437 0.237-0.437 0.175-0.412 0.125-0.375 0.087-0.325 0.050-0.263 0.025h-7.46l-0.862 0.062-0.737 0.175-0.625 0.275-0.512 0.337-0.412 0.4-0.337 0.437-0.25 0.45-0.187 0.462-0.125 0.437-0.087 0.4-0.050 0.337-0.025 0.262v3.824h-2.787l-0.262-0.037-0.35-0.087-0.4-0.15-0.437-0.225-0.45-0.325-0.45-0.45-0.437-0.575-0.4-0.737-0.35-0.912-0.262-1.1-0.175-1.312-0.062-1.537 0.075-1.524 0.2-1.3 0.3-1.087 0.4-0.887 0.45-0.712 0.5-0.55 0.525-0.412 0.525-0.3 0.5-0.2 0.45-0.125 0.4-0.062 0.3-0.012h0.2l0.075 0.012h10.197v-1.037h-7.298l-0.012-3.436-0.025-0.462 0.062-0.425 0.137-0.387 0.212-0.35 0.312-0.325 0.387-0.287 0.475-0.25 0.55-0.225 0.637-0.187 0.725-0.15 0.8-0.125 0.887-0.075 0.962-0.050 1.050-0.025 1.587 0.063z">
+              </path>
+            </svg>
+
+            <span class="section-portfolio__heading">Data Science</span>
+            <p class="section-portfolio__description">
+              Analyzing, Evaluating and Visualizaing the data from Hec-Ras for referencing thesis "Dam breach
+              elevation".
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Resume -->
+    <section class="section-portfolio container" id="resume">
+      <div class="portfolio-text">
+        <span class="subtitle">Strong Determination </span>
+        <h2 class="heading-title mb-md">My Resume</h2>
+        <a class="btn" href="/pdf/MyResume.pdf">Download
+          Resume</a>
+      </div>
+      <!-- <div class="section-resume">
+        <span>My skills</span>
+        <li>
+          <h3>Html</h3>
+          <span class="section-resume-bar">
+            <span class="html"></span>
+          </span>
+        </li>
+        <li>
+          <h3>Css</h3>
+          <span class="section-resume-bar">
+            <span class="css"></span>
+          </span>
+        </li>
+        <li>
+          <h3>Laravel</h3>
+          <span class="section-resume-bar">
+            <span class="laravel"></span>
+          </span>
+        </li>
+        <li>
+          <h3>Django</h3>
+          <span class="section-resume-bar">
+            <span class="django"></span>
+          </span>
+        </li>
+      </div> -->
+
+    </section>
+    <!-- contact-me-section -->
+    <section class="section-cta container" id="cta">
+      <div class="portfolio-text">
+        <span class="subtitle">Wanna Talk to Me</span>
+        <h2 class="heading-title mb-md">Contact Me</h2>
+      </div>
+      <div class="section-cta__box">
+        <div class="section-cta__form">
+          <form action="#" class="form">
+            <div class="form__group">
+              <label for="name" class="form__label">Full Name</label>
+              <input type="text" class="form__input" placeholder="Full Name" id="name" required />
+              <label for="email" class="form__label">Email</label>
+              <input type="email" class="form__input" placeholder="Email" id="email" required />
+              <label for="text-cta" class="form__label">Message</label>
+              <textarea name="text-cta" id="text-cta" cols="30" rows="5" class="form__input" required></textarea>
+              <button class="submit">Send</button>
             </div>
-          </div>
-          <div class="card-portfolio">
-            <div class="section-portfolio__content-box">
-              <svg
-                class="portfolio-img"
-                height="3365"
-                viewbox="0 0 3364.7 3364.7"
-                width="3365"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <radialGradient
-                    cx="217.76"
-                    cy="3290.99"
-                    gradientunits="userSpaceOnUse"
-                    id="0"
-                    r="4271.92"
-                  >
-                    <stop offset=".09" stop-color="#fa8f21" />
-                    <stop offset=".78" stop-color="#d82d7e" />
-                  </radialGradient>
-                  <radialGradient
-                    cx="2330.61"
-                    cy="3182.95"
-                    gradientunits="userSpaceOnUse"
-                    id="1"
-                    r="3759.33"
-                  >
-                    <stop offset=".64" stop-color="#8c3aaa" stop-opacity="0" />
-                    <stop offset="1" stop-color="#8c3aaa" />
-                  </radialGradient>
-                </defs>
-                <path
-                  d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
-                  fill="url(#0)"
-                />
-                <path
-                  d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
-                  fill="url(#1)"
-                />
-                <path
-                  d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57"
-                  fill="#fff"
-                />
-              </svg>
-              <span class="section-portfolio__heading">Filter Design</span>
-              <p class="section-portfolio__description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-              </p>
-            </div>
-          </div>
-          <div class="card-portfolio">
-            <div class="section-portfolio__content-box">
-              <svg
-                height="100%"
-                class="portfolio-img"
-                style="
-                  fill-rule: evenodd;
-                  clip-rule: evenodd;
-                  stroke-linejoin: round;
-                  stroke-miterlimit: 2;
-                "
-                version="1.1"
-                viewBox="0 0 128 128"
-                width="100%"
-                xml:space="preserve"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:serif="http://www.serif.com/"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <g transform="matrix(1.25305,0,0,1.25305,-16.3076,4.57191)">
-                  <circle
-                    cx="64"
-                    cy="47.5"
-                    r="9.3"
-                    style="fill: rgb(97, 218, 251)"
-                  />
-                  <path
-                    d="M64,81.7C71.3,88.8 78.5,93 84.3,93C86.2,93 88,92.6 89.5,91.7C94.7,88.7 96.6,81.2 94.8,70.5C94.5,68.6 94.1,66.7 93.6,64.7C95.6,64.1 97.4,63.5 99.2,62.9C109.3,59 114.9,53.6 114.9,47.7C114.9,41.7 109.3,36.3 99.2,32.5C97.4,31.8 95.6,31.2 93.6,30.7C94.1,28.7 94.5,26.8 94.8,24.9C96.5,14 94.6,6.4 89.4,3.4C87.9,2.5 86.1,2.1 84.2,2.1C78.5,2.1 71.2,6.3 63.9,13.4C56.7,6.3 49.5,2.1 43.7,2.1C41.8,2.1 40,2.5 38.5,3.4C33.3,6.4 31.4,13.9 33.2,24.6C33.5,26.5 33.9,28.4 34.4,30.4C32.4,31 30.6,31.6 28.8,32.2C18.7,36.1 13.1,41.5 13.1,47.4C13.1,53.4 18.7,58.8 28.8,62.6C30.6,63.3 32.4,63.9 34.4,64.4C33.9,66.4 33.5,68.3 33.2,70.2C31.5,80.9 33.4,88.5 38.5,91.4C40,92.3 41.8,92.7 43.7,92.7C49.5,92.9 56.7,88.7 64,81.7ZM58.4,68.2C60.2,68.3 62.1,68.3 64,68.3C65.9,68.3 67.8,68.3 69.6,68.2C67.8,70.6 65.9,72.8 64,74.9C62.1,72.8 60.2,70.6 58.4,68.2ZM46,57.9C47,59.6 47.9,61.2 49,62.8C45.9,62.4 43,61.9 40.2,61.3C41.1,58.6 42.1,55.8 43.3,53C44.1,54.6 45,56.3 46,57.9ZM40.2,33.8C43,33.2 45.9,32.7 49,32.3C48,33.9 47,35.5 46,37.2C45,38.9 44.1,40.5 43.3,42.2C42,39.3 41,36.5 40.2,33.8ZM45.7,47.5C47,44.8 48.4,42.1 50,39.4C51.5,36.8 53.2,34.2 54.9,31.6C57.9,31.4 60.9,31.3 64,31.3C67.2,31.3 70.2,31.4 73.1,31.6C74.9,34.2 76.5,36.8 78,39.4C79.6,42.1 81,44.8 82.3,47.5C81,50.2 79.6,52.9 78,55.6C76.5,58.2 74.8,60.8 73.1,63.4C70.1,63.6 67.1,63.7 64,63.7C60.8,63.7 57.8,63.6 54.9,63.4C53.1,60.8 51.5,58.2 50,55.6C48.4,52.9 47,50.2 45.7,47.5ZM84.8,42.1L82.1,37.1C81.1,35.4 80.2,33.8 79.1,32.2C82.2,32.6 85.1,33.1 87.9,33.7C87,36.5 86,39.3 84.8,42.1ZM84.8,52.9C86,55.7 87,58.5 87.9,61.2C85.1,61.8 82.2,62.3 79.1,62.7C80.1,61.1 81.1,59.5 82.1,57.8C83,56.3 83.9,54.6 84.8,52.9ZM87.1,87.6C86.3,88.1 85.3,88.3 84.2,88.3C79.3,88.3 73.2,84.3 67.2,78.3C70.1,75.2 72.9,71.7 75.7,67.8C80.4,67.4 84.9,66.7 89.1,65.7C89.6,67.5 89.9,69.3 90.2,71.1C91.6,79.6 90.5,85.7 87.1,87.6ZM92.3,34.9C103.5,38.1 110.2,43 110.2,47.5C110.2,51.4 105.6,55.3 97.5,58.4C95.9,59 94.1,59.6 92.3,60.1C91,56 89.4,51.8 87.4,47.5C89.4,43.2 91.1,39 92.3,34.9ZM84.3,6.7C85.4,6.7 86.3,6.9 87.2,7.4C90.5,9.3 91.7,15.3 90.3,23.9C90,25.6 89.6,27.4 89.2,29.3C85,28.4 80.5,27.7 75.8,27.2C73.1,23.3 70.2,19.8 67.3,16.7C73.3,10.8 79.4,6.7 84.3,6.7ZM69.6,26.8C67.8,26.7 65.9,26.7 64,26.7C62.1,26.7 60.2,26.7 58.4,26.8C60.2,24.4 62.1,22.2 64,20.1C65.9,22.2 67.8,24.5 69.6,26.8ZM40.9,7.4C41.7,6.9 42.7,6.7 43.8,6.7C48.7,6.7 54.8,10.7 60.8,16.7C57.9,19.8 55.1,23.3 52.3,27.2C47.6,27.6 43.1,28.3 38.9,29.3C38.4,27.5 38.1,25.7 37.8,23.9C36.4,15.4 37.5,9.4 40.9,7.4ZM35.7,60.1C24.5,56.9 17.8,52 17.8,47.5C17.8,43.6 22.4,39.7 30.5,36.6C32.1,36 33.9,35.4 35.7,34.9C37,39 38.6,43.2 40.6,47.5C38.6,51.8 36.9,56.1 35.7,60.1ZM37.8,71.1C38.1,69.4 38.5,67.6 38.9,65.7C43.1,66.6 47.6,67.3 52.3,67.8C55,71.7 57.9,75.2 60.8,78.3C54.8,84.2 48.7,88.3 43.8,88.3C42.7,88.3 41.8,88.1 40.9,87.6C37.5,85.7 36.4,79.6 37.8,71.1Z"
-                    style="fill: rgb(97, 218, 251); fill-rule: nonzero"
-                  />
-                </g>
-              </svg>
-              <span class="section-portfolio__heading">React</span>
-              <p class="section-portfolio__description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. As
-              </p>
-            </div>
-          </div>
+          </form>
         </div>
-      </section>
-      <!-- Resume -->
-      <section class="section-portfolio container" id="resume">
-        <div class="portfolio-text">
-          <span class="subtitle">Fresher but willing to Work </span>
-          <h2 class="heading-title mb-md">My Resume</h2>
-        </div>
-        <div class="section-resume">
-          <span>My skills</span>
-          <li>
-            <h3>Html</h3>
-            <span class="section-resume-bar">
-              <span class="html"></span>
-            </span>
-          </li>
-          <li>
-            <h3>Css</h3>
-            <span class="section-resume-bar">
-              <span class="css"></span>
-            </span>
-          </li>
-          <li>
-            <h3>Laravel</h3>
-            <span class="section-resume-bar">
-              <span class="laravel"></span>
-            </span>
-          </li>
-          <li>
-            <h3>Django</h3>
-            <span class="section-resume-bar">
-              <span class="django"></span>
-            </span>
-          </li>
-        </div>
-      </section>
-      <!-- contact-me-section -->
-      <section class="section-cta container" id="cta">
-        <div class="portfolio-text">
-          <span class="subtitle">Wanna Talk to Me</span>
-          <h2 class="heading-title mb-md">Contact Me</h2>
-        </div>
-        <div class="section-cta__box">
-          <div class="section-cta__form">
-            <form action="#" class="form">
-              <div class="form__group">
-                <label for="name" class="form__label">Full Name</label>
-                <input
-                  type="text"
-                  class="form__input"
-                  placeholder="Full Name"
-                  id="name"
-                  required
-                />
-                <label for="email" class="form__label">Email</label>
-                <input
-                  type="email"
-                  class="form__input"
-                  placeholder="Email"
-                  id="email"
-                  required
-                />
-                <label for="text-cta" class="form__label">Message</label>
-                <textarea
-                  name="text-cta"
-                  id="text-cta"
-                  cols="30"
-                  rows="5"
-                  class="form__input"
-                  required
-                ></textarea>
-                <button class="submit">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-      <footer class="footer">Copyright &copy; 2022</footer>
-    </main>
-  </body>
-  <script src="js/script.js"></script>
+      </div>
+    </section>
+    <footer class="footer">Copyright &copy; 2022</footer>
+  </main>
+</body>
+<script src="js/script.js"></script>
+
 </html>

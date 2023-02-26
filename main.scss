@@ -98,6 +98,12 @@ html {
 .mb-md {
   margin-bottom: 4.8rem;
 }
+.cn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 // header
 .logo {
@@ -278,6 +284,13 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 3.2rem;
+  }
+  &__link:link{
+    text-decoration: none;
+    color: #555;
+  }
+  &__link:visited{
+    text-decoration: none;
   }
   &__heading {
     font-size: 2rem;
